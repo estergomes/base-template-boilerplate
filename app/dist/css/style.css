@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  background: lemonchiffon;
+  width: 100%;
+  height: 100vh;
+  -webkit-columns: 300px 2;
+          columns: 300px 2;
+}
+
+#wrapper h1 {
+    color:blue;
+    font-size: 18px;
+  }
+
+@media (min-width: 530px){
+
+#wrapper h1 {
+      font-size: 20px
+  }
+  }
+
+@media (min-width: 800px){
+
+#wrapper h1 {
+      font-size: 24px
+  }
+  }
+
+@media (min-width: 1200px){
+
+#wrapper h1 {
+      font-size: 28px
+  }
+  }
+
+#wrapper a {
+    color: black;
+
+  }
